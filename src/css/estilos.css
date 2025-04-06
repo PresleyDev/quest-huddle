@@ -1,41 +1,48 @@
 body {
     background: url(../images/bg-desktop.svg) center center no-repeat var(--violet);
     font-family: 'Open Sans';
-    padding: 0 60px;
+    margin: 0 60px;
+    color: #ffff;
 }
 
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 205px;
+    height: 125px;
+}
 
 .header .logo .img-logo{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 125px;
+    max-width: 100vh;
 }
 
-.main {
+.main{
     display: flex;
-    color: #ffff;
 }
 
 .main .container {
-    display: flex;
     flex-direction: column;
+    display: flex;
 }
+
 
 .main .container .title {
     text-transform: capitalize;
     letter-spacing: 0.5px;
     font-size: 50px;
-    font-weight: 700;
-    margin: 17.5px 25px 15px 25px;  
+    font-weight: 600;
+    margin: 15px 25px;  
 }
 
 .main .container .paragrafo {
     font-size: 22px;
     font-weight: 400;
-    margin: 17.5px 25px 10px 25px;
     letter-spacing: 0.5px;
+    margin: 15px 25px;
 }
 
 .main .container .btn-register {
